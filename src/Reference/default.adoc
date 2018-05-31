@@ -7,6 +7,10 @@
 :docinfo1:
 :imagesdir: images
 
+ifdef::env-github[]
+:imagesdir: https://raw.githubusercontent.com/openanthem/nimbus-docs/feature/1.0.0.RC1/src/images
+endif::[]
+
 This part of the technical documentation will cover all of the core technologies used within the Framework.
 
 include::pages/domain-model/default.adoc[leveloffset=+1]
